@@ -1,0 +1,19 @@
+{
+  "name": "testcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage/issues"
+  },
+  "homepage": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage#readme"
+}
