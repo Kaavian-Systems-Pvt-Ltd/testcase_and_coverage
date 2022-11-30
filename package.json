@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ks-test": "jasmine --config=spec/support/jasmine.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage/issues"
   },
-  "homepage": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage#readme"
+  "homepage": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "request": "^2.88.2",
+    "sinon": "^15.0.0"
+  }
 }
