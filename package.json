@@ -21,5 +21,8 @@
     "jasmine": "^4.5.0",
     "request": "^2.88.2",
     "sinon": "^15.0.0"
+  },
+  "bin": {
+    "printhelo": "bin/sample.js"
   }
 }
