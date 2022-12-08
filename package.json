@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "ks-test": "jasmine --config=spec/support/jasmine.json"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"
@@ -23,6 +20,6 @@
     "sinon": "^15.0.0"
   },
   "bin": {
-    "printhelo": "bin/sample.js"
+    "kstest ": "jasmine --config=spec/support/jasmine.json"
   }
 }
