@@ -13,6 +13,6 @@
   },
   "bin": {
     "kstesting": "bin/kstest.js ",
-    "anothersample": "bin/sample.js"
+    "ksfile": "bin/jsonfile.js"
   }
 }
