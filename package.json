@@ -1,25 +1,18 @@
 {
-  "name": "testcase",
+  "name": "new-folder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage/issues"
-  },
-  "homepage": "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "jasmine": "^4.5.0",
-    "request": "^2.88.2",
-    "sinon": "^15.0.0"
+    "jasmine": "^4.5.0"
   },
   "bin": {
-    "kstest ": "jasmine --config=spec/support/jasmine.json"
+    "kstesting": "bin/kstest.js ",
+    "anothersample": "bin/sample.js"
   }
 }
