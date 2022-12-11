@@ -2,8 +2,8 @@
 
 const path = require('path');
 const os = require('os');
-const Command = require('../../node_modules/jasmine/lib/command');
-const Jasmine = require('../../node_modules/jasmine/lib/jasmine');
+const Command = require('../../jasmine/lib/command');
+const Jasmine = require('../../jasmine/lib/jasmine');
 
 let projectBaseDir = path.resolve();
 
