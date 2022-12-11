@@ -4,10 +4,13 @@
     "**/*[sS]pec.?(m)js",
     "!**/*nospec.js"
   ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
   "env": {
     "failSpecWithNoExpectations": false,
     "stopSpecOnExpectationFailure": false,
     "stopOnSpecFailure": false,
-    "random": false
+    "random": true
   }
 }
