@@ -15,8 +15,9 @@
   },
   "bin": {
     "ksfile": "bin/jsonfile.js",
-    "kstestcase": "bin/kstesting.js",
+    "kstestcase": "nyc bin/kstesting.js",
     "kscove": "bin/kscov.js",
-    "ksc8": "bin/kscove.js"
+    "ksc8": "bin/kscove.js",
+    "ksc": "bin/ksnyc.js"
   }
 }
