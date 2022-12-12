@@ -9,10 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jasmine": "^4.5.0"
+    "coverage": "^0.4.1",
+    "jasmine": "^4.5.0",
+    "nyc": "^15.1.0"
   },
   "bin": {
     "ksfile": "bin/jsonfile.js",
-    "kstestcase": "bin/kstesting.js"
+    "kstestcase": "bin/kstesting.js",
+    "kscove": "bin/kscov.js",
+    "ksc8": "bin/kscove.js"
   }
 }
