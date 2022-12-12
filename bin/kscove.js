@@ -2,7 +2,7 @@
 'use strict'
 
 const foreground = require('foreground-child')
-const { outputReport } = require('../node_modules/c8/lib/commands/report')
+const { outputReport } = require('../../c8/lib/commands/report')
 const { promises } = require('fs')
 const { promisify } = require('util')
 const rimraf = require('rimraf')
@@ -10,7 +10,7 @@ const {
   buildYargs,
   hideInstrumenteeArgs,
   hideInstrumenterArgs
-} = require('../node_modules/c8/lib/parse-args')
+} = require('../../c8/lib/parse-args')
 
 const instrumenterArgs = hideInstrumenteeArgs()
 let argv = buildYargs().parse(instrumenterArgs)
