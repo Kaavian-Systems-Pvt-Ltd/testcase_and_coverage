@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jasmine": "^4.5.0"
+    "jasmine": "^4.5.0",
+    "nyc": "^15.1.0"
   },
   "bin": {
     "ksfile": "bin/jsonfile.js",
