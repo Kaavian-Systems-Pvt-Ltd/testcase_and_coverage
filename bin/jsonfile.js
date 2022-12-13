@@ -8,7 +8,7 @@ const readline = require("readline").createInterface({
 });
 
 readline.question("Do you want to install json file?", (data) => {
-  if (data === "yes") {
+  if (data === "yes" && 'y' && 'Y' && 'YES') {
     const path = "./spec/support";
 
     fs.access(path, (error) => {
@@ -60,7 +60,7 @@ readline.question("Do you want to install json file?", (data) => {
 						fs.writeFileSync("spec/support/jasmine.json", file);
       }
     });
-	} else if (data === 'no') {
+	} else if (data === 'no' && 'n' && 'NO' && 'N') {
 		readline.close();
 	} else {
 		readline.close();
