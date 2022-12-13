@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ksc": "npx nyc --reporter=lcov --reporter=text-summary kstestcase"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "nyc": "^15.1.0"
   },
   "bin": {
-    "ksfile": "bin/jsonfile.js",
-    "kstestcase": "bin/kstesting.js"
+    "ksspecfile": "bin/jsonfile.js",
+    "kstestcase": "bin/kstesting.js",
+    "kscoverage": "bin/kscoverage.js"
   }
 }
