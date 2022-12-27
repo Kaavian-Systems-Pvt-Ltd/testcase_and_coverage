@@ -4,10 +4,12 @@
 
 This Package is used to run your testCases and Coverage without using installation of Jasmine and Sinon packages.
 
-## Dependencies
+## Installation Process
 
-<copy-button>&nbsp;&nbsp;&nbsp;&nbsp;@kaavian-sys/testcase-and-coverage: "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"</copy-button>
+#### Dependencies
 
-## Install
+> @kaavian-sys/testcase-and-coverage: "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"
 
-<copy-button>&nbsp;&nbsp;&nbsp;&nbsp;npm install @kaavian-sys/testcase-and-coverage</copy-button>
+#### Install
+> npm install @kaavian-sys/testcase-and-coverage
+
