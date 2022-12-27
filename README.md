@@ -6,10 +6,11 @@ This Package is used to run your testCases and Coverage without using installati
 
 ## Installation Process
 
-#### Dependencies
+>### Dependencies
 
-> @kaavian-sys/testcase-and-coverage: "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"
+    > @kaavian-sys/testcase-and-coverage: "https://github.com/Kaavian-Systems-Pvt-Ltd/testcase_and_coverage.git"
 
-#### Install
-> npm install @kaavian-sys/testcase-and-coverage
+>### Install
+
+    > npm install @kaavian-sys/testcase-and-coverage
 
