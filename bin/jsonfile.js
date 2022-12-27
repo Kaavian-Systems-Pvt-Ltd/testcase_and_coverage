@@ -8,7 +8,7 @@ const readline = require("readline").createInterface({
 });
 
 readline.question("Do you want to create a spec folder ?", (data) => {
-  if (data === "yes" || 'y' || 'Y' || 'YES') {
+  if (data === "yes" || 'y' || 'Y' || 'YES' || 'Yes') {
     const path = "./spec/support";
 
     fs.access(path, (error) => {
