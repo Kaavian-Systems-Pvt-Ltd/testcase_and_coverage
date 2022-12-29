@@ -35,4 +35,4 @@ After writing the spec files give the comment "npx kstestcase" to test your spec
 
 ### usage of kscoverage comment
 
-The "npx kscoverage" comment is shows the coverage of your testcases.
+The "npx kscoverage" comment shows the coverage of your testcases.
