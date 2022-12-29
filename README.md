@@ -29,6 +29,10 @@ Once you run this comment , it asks whether you want to create a spec folder, if
 
 Then you can write the spec files inside that spec folder
 
-### usage of kstestcase commet
+### usage of kstestcase comment
 
 After writing the spec files give the comment "npx kstestcase" to test your spec files.
+
+### usage of kscoverage comment
+
+The "npx kscoverage" comment is shows the coverage of your testcases.
